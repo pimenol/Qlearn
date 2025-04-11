@@ -43,7 +43,6 @@ class QLearning():
 		return self.best_action(s[0], s[1])
 
 if __name__ == '__main__':
-	# Here you can test your algorithm. Stick with N <= 4
 	N = 4
 
 	env = BlockWorldEnv(N)
